@@ -9,7 +9,7 @@
 #import "LiveGiftShowCustom.h"
 #import "LiveGiftShowView.h"
 
-static CGFloat const kGiftViewMargin = 50.0;/**< 两个弹幕之间的高度差 */
+static CGFloat const kGiftViewMargin = 20.0;/**< 两个弹幕之间的高度差 */
 static NSString * const kGiftViewRemoved = @"kGiftViewRemoved";/**< 弹幕已移除的key */
 
 static NSInteger live_maxGiftShowCount = 3;
@@ -77,6 +77,7 @@ static LiveGiftAppearMode live_appearModel = LiveGiftAppearModeLeft;
                     //重置模型
                     [self resetView:oldestView nowModel:showModel isChangeNum:isResetNumber number:showNumber];
                 } else {
+                    showModel.showNumber = showNumber;
                     [self addToQueue:showModel];
                 }
                 return;
@@ -386,7 +387,17 @@ static LiveGiftAppearMode live_appearModel = LiveGiftAppearModeLeft;
     }
     if (showCount < live_maxGiftShowCount) {
         LiveGiftShowModel * model = self.waitQueueArr.firstObject;
-        [self animatedWithGiftModel:model];
+        ///[self animatedWithGiftModel:model];
+        
+        
+        ///
+        if (model.showNumber > 0) {
+            [self addLiveGiftShowModel:model showNumber:model.showNumber];
+        }else{
+            [self animatedWithGiftModel:model];
+        }
+        
+        
         [self.waitQueueArr removeObject:model];
     }
 }
