@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		040954EF23138DCE005BA868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040954EE23138DCE005BA868 /* AppDelegate.m */; };
-		040954F223138DCE005BA868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040954F123138DCE005BA868 /* ViewController.m */; };
 		040954F523138DCE005BA868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040954F323138DCE005BA868 /* Main.storyboard */; };
 		040954F723138DD0005BA868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040954F623138DD0005BA868 /* Assets.xcassets */; };
 		040954FA23138DD0005BA868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040954F823138DD0005BA868 /* LaunchScreen.storyboard */; };
 		040954FD23138DD0005BA868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040954FC23138DD0005BA868 /* main.m */; };
-		0409550723138DD0005BA868 /* FF_LiveSendGiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409550623138DD0005BA868 /* FF_LiveSendGiftTests.m */; };
-		0409551223138DD0005BA868 /* FF_LiveSendGiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409551123138DD0005BA868 /* FF_LiveSendGiftUITests.m */; };
+		0409552D23138E1C005BA868 /* LiveGiftShowCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409552023138E1C005BA868 /* LiveGiftShowCustom.m */; };
+		0409552E23138E1C005BA868 /* LiveGiftShowNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409552123138E1C005BA868 /* LiveGiftShowNumberView.m */; };
+		0409552F23138E1C005BA868 /* LiveUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409552323138E1C005BA868 /* LiveUserModel.m */; };
+		0409553023138E1C005BA868 /* LiveGiftShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409552423138E1C005BA868 /* LiveGiftShowView.m */; };
+		0409553123138E1C005BA868 /* LiveGiftShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409552523138E1C005BA868 /* LiveGiftShowModel.m */; };
+		0409553223138E1C005BA868 /* LiveGiftListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409552923138E1C005BA868 /* LiveGiftListModel.m */; };
+		0409553323138E1C005BA868 /* LiveDefaultIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0409552B23138E1C005BA868 /* LiveDefaultIcon.jpeg */; };
+		0409553923138E25005BA868 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409553623138E25005BA868 /* HomeVC.m */; };
+		0409553A23138E25005BA868 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409553723138E25005BA868 /* TestVC.m */; };
+		2C5319B81435B900E341A729 /* libPods-FF_LiveSendGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 956A8A57466C0E36F582E58B /* libPods-FF_LiveSendGift.a */; };
+		7DD0E87FD6F09796140C3689 /* libPods-FF_LiveSendGiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B99F48C90D8A26715E403 /* libPods-FF_LiveSendGiftTests.a */; };
+		AD6EAA49CCF7739509116443 /* libPods-FF_LiveSendGiftUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE42B2A9EFEDD56CF5C56E /* libPods-FF_LiveSendGiftUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +47,39 @@
 		040954EA23138DCE005BA868 /* FF_LiveSendGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_LiveSendGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040954ED23138DCE005BA868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		040954EE23138DCE005BA868 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		040954F023138DCE005BA868 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		040954F123138DCE005BA868 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		040954F423138DCE005BA868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040954F623138DD0005BA868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040954F923138DD0005BA868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040954FB23138DD0005BA868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040954FC23138DD0005BA868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0409550223138DD0005BA868 /* FF_LiveSendGiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_LiveSendGiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0409550623138DD0005BA868 /* FF_LiveSendGiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF_LiveSendGiftTests.m; sourceTree = "<group>"; };
-		0409550823138DD0005BA868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0409550D23138DD0005BA868 /* FF_LiveSendGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_LiveSendGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0409551123138DD0005BA868 /* FF_LiveSendGiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF_LiveSendGiftUITests.m; sourceTree = "<group>"; };
-		0409551323138DD0005BA868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0409552023138E1C005BA868 /* LiveGiftShowCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveGiftShowCustom.m; sourceTree = "<group>"; };
+		0409552123138E1C005BA868 /* LiveGiftShowNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveGiftShowNumberView.m; sourceTree = "<group>"; };
+		0409552223138E1C005BA868 /* LiveGiftListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveGiftListModel.h; sourceTree = "<group>"; };
+		0409552323138E1C005BA868 /* LiveUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveUserModel.m; sourceTree = "<group>"; };
+		0409552423138E1C005BA868 /* LiveGiftShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveGiftShowView.m; sourceTree = "<group>"; };
+		0409552523138E1C005BA868 /* LiveGiftShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveGiftShowModel.m; sourceTree = "<group>"; };
+		0409552623138E1C005BA868 /* LiveGiftShowNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveGiftShowNumberView.h; sourceTree = "<group>"; };
+		0409552723138E1C005BA868 /* LiveGiftShowCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveGiftShowCustom.h; sourceTree = "<group>"; };
+		0409552823138E1C005BA868 /* LiveUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveUserModel.h; sourceTree = "<group>"; };
+		0409552923138E1C005BA868 /* LiveGiftListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveGiftListModel.m; sourceTree = "<group>"; };
+		0409552A23138E1C005BA868 /* LiveGiftShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveGiftShowModel.h; sourceTree = "<group>"; };
+		0409552B23138E1C005BA868 /* LiveDefaultIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiveDefaultIcon.jpeg; sourceTree = "<group>"; };
+		0409552C23138E1C005BA868 /* LiveGiftShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveGiftShowView.h; sourceTree = "<group>"; };
+		0409553523138E25005BA868 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		0409553623138E25005BA868 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		0409553723138E25005BA868 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		0409553823138E25005BA868 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		3767018D34E676AD2848900D /* Pods-FF_LiveSendGiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_LiveSendGiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_LiveSendGiftUITests/Pods-FF_LiveSendGiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6B99F48C90D8A26715E403 /* libPods-FF_LiveSendGiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_LiveSendGiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B8796EB37C8BC173DA1C5D /* Pods-FF_LiveSendGiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_LiveSendGiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_LiveSendGiftUITests/Pods-FF_LiveSendGiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		956A8A57466C0E36F582E58B /* libPods-FF_LiveSendGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_LiveSendGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5445558486565587C9ED22 /* Pods-FF_LiveSendGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_LiveSendGift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_LiveSendGift/Pods-FF_LiveSendGift.release.xcconfig"; sourceTree = "<group>"; };
+		BB0E8E3BD3ECB60C606E54EB /* Pods-FF_LiveSendGiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_LiveSendGiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_LiveSendGiftTests/Pods-FF_LiveSendGiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6D1F4CE5F01382FA7F32FE /* Pods-FF_LiveSendGiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_LiveSendGiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_LiveSendGiftTests/Pods-FF_LiveSendGiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF778C72D6217A7CB0C9CB14 /* Pods-FF_LiveSendGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_LiveSendGift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_LiveSendGift/Pods-FF_LiveSendGift.debug.xcconfig"; sourceTree = "<group>"; };
+		FEAE42B2A9EFEDD56CF5C56E /* libPods-FF_LiveSendGiftUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_LiveSendGiftUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5319B81435B900E341A729 /* libPods-FF_LiveSendGift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD0E87FD6F09796140C3689 /* libPods-FF_LiveSendGiftTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6EAA49CCF7739509116443 /* libPods-FF_LiveSendGiftUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				040954EC23138DCE005BA868 /* FF_LiveSendGift */,
-				0409550523138DD0005BA868 /* FF_LiveSendGiftTests */,
-				0409551023138DD0005BA868 /* FF_LiveSendGiftUITests */,
 				040954EB23138DCE005BA868 /* Products */,
+				2D446ED14D60B8A4E6404249 /* Pods */,
+				12C33DF3BF94FD88D133F76A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +133,10 @@
 		040954EC23138DCE005BA868 /* FF_LiveSendGift */ = {
 			isa = PBXGroup;
 			children = (
+				0409553423138E25005BA868 /* ViewControllers */,
+				0409551F23138E1C005BA868 /* LiveGiftShowView */,
 				040954ED23138DCE005BA868 /* AppDelegate.h */,
 				040954EE23138DCE005BA868 /* AppDelegate.m */,
-				040954F023138DCE005BA868 /* ViewController.h */,
-				040954F123138DCE005BA868 /* ViewController.m */,
 				040954F323138DCE005BA868 /* Main.storyboard */,
 				040954F623138DD0005BA868 /* Assets.xcassets */,
 				040954F823138DD0005BA868 /* LaunchScreen.storyboard */,
@@ -114,22 +146,58 @@
 			path = FF_LiveSendGift;
 			sourceTree = "<group>";
 		};
-		0409550523138DD0005BA868 /* FF_LiveSendGiftTests */ = {
+		0409551F23138E1C005BA868 /* LiveGiftShowView */ = {
 			isa = PBXGroup;
 			children = (
-				0409550623138DD0005BA868 /* FF_LiveSendGiftTests.m */,
-				0409550823138DD0005BA868 /* Info.plist */,
+				0409552723138E1C005BA868 /* LiveGiftShowCustom.h */,
+				0409552023138E1C005BA868 /* LiveGiftShowCustom.m */,
+				0409552823138E1C005BA868 /* LiveUserModel.h */,
+				0409552323138E1C005BA868 /* LiveUserModel.m */,
+				0409552A23138E1C005BA868 /* LiveGiftShowModel.h */,
+				0409552C23138E1C005BA868 /* LiveGiftShowView.h */,
+				0409552423138E1C005BA868 /* LiveGiftShowView.m */,
+				0409552523138E1C005BA868 /* LiveGiftShowModel.m */,
+				0409552623138E1C005BA868 /* LiveGiftShowNumberView.h */,
+				0409552123138E1C005BA868 /* LiveGiftShowNumberView.m */,
+				0409552223138E1C005BA868 /* LiveGiftListModel.h */,
+				0409552923138E1C005BA868 /* LiveGiftListModel.m */,
+				0409552B23138E1C005BA868 /* LiveDefaultIcon.jpeg */,
 			);
-			path = FF_LiveSendGiftTests;
+			path = LiveGiftShowView;
 			sourceTree = "<group>";
 		};
-		0409551023138DD0005BA868 /* FF_LiveSendGiftUITests */ = {
+		0409553423138E25005BA868 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0409551123138DD0005BA868 /* FF_LiveSendGiftUITests.m */,
-				0409551323138DD0005BA868 /* Info.plist */,
+				0409553523138E25005BA868 /* TestVC.h */,
+				0409553723138E25005BA868 /* TestVC.m */,
+				0409553823138E25005BA868 /* HomeVC.h */,
+				0409553623138E25005BA868 /* HomeVC.m */,
 			);
-			path = FF_LiveSendGiftUITests;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12C33DF3BF94FD88D133F76A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				956A8A57466C0E36F582E58B /* libPods-FF_LiveSendGift.a */,
+				6C6B99F48C90D8A26715E403 /* libPods-FF_LiveSendGiftTests.a */,
+				FEAE42B2A9EFEDD56CF5C56E /* libPods-FF_LiveSendGiftUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D446ED14D60B8A4E6404249 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF778C72D6217A7CB0C9CB14 /* Pods-FF_LiveSendGift.debug.xcconfig */,
+				9C5445558486565587C9ED22 /* Pods-FF_LiveSendGift.release.xcconfig */,
+				BB0E8E3BD3ECB60C606E54EB /* Pods-FF_LiveSendGiftTests.debug.xcconfig */,
+				BE6D1F4CE5F01382FA7F32FE /* Pods-FF_LiveSendGiftTests.release.xcconfig */,
+				3767018D34E676AD2848900D /* Pods-FF_LiveSendGiftUITests.debug.xcconfig */,
+				85B8796EB37C8BC173DA1C5D /* Pods-FF_LiveSendGiftUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409551623138DD0005BA868 /* Build configuration list for PBXNativeTarget "FF_LiveSendGift" */;
 			buildPhases = (
+				6A00060ADDBE35F302D0D68C /* [CP] Check Pods Manifest.lock */,
 				040954E623138DCE005BA868 /* Sources */,
 				040954E723138DCE005BA868 /* Frameworks */,
 				040954E823138DCE005BA868 /* Resources */,
@@ -156,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409551923138DD0005BA868 /* Build configuration list for PBXNativeTarget "FF_LiveSendGiftTests" */;
 			buildPhases = (
+				652A300A885FF0A707F9883E /* [CP] Check Pods Manifest.lock */,
 				040954FE23138DD0005BA868 /* Sources */,
 				040954FF23138DD0005BA868 /* Frameworks */,
 				0409550023138DD0005BA868 /* Resources */,
@@ -174,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409551C23138DD0005BA868 /* Build configuration list for PBXNativeTarget "FF_LiveSendGiftUITests" */;
 			buildPhases = (
+				E594AB3A6CFA8893F8B0E88F /* [CP] Check Pods Manifest.lock */,
 				0409550923138DD0005BA868 /* Sources */,
 				0409550A23138DD0005BA868 /* Frameworks */,
 				0409550B23138DD0005BA868 /* Resources */,
@@ -237,6 +308,7 @@
 			files = (
 				040954FA23138DD0005BA868 /* LaunchScreen.storyboard in Resources */,
 				040954F723138DD0005BA868 /* Assets.xcassets in Resources */,
+				0409553323138E1C005BA868 /* LiveDefaultIcon.jpeg in Resources */,
 				040954F523138DCE005BA868 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +329,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		652A300A885FF0A707F9883E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_LiveSendGiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A00060ADDBE35F302D0D68C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_LiveSendGift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E594AB3A6CFA8893F8B0E88F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_LiveSendGiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040954E623138DCE005BA868 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040954F223138DCE005BA868 /* ViewController.m in Sources */,
+				0409552E23138E1C005BA868 /* LiveGiftShowNumberView.m in Sources */,
+				0409553123138E1C005BA868 /* LiveGiftShowModel.m in Sources */,
+				0409553A23138E25005BA868 /* TestVC.m in Sources */,
+				0409553923138E25005BA868 /* HomeVC.m in Sources */,
+				0409553223138E1C005BA868 /* LiveGiftListModel.m in Sources */,
+				0409552F23138E1C005BA868 /* LiveUserModel.m in Sources */,
+				0409552D23138E1C005BA868 /* LiveGiftShowCustom.m in Sources */,
+				0409553023138E1C005BA868 /* LiveGiftShowView.m in Sources */,
 				040954FD23138DD0005BA868 /* main.m in Sources */,
 				040954EF23138DCE005BA868 /* AppDelegate.m in Sources */,
 			);
@@ -272,7 +408,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0409550723138DD0005BA868 /* FF_LiveSendGiftTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +415,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0409551223138DD0005BA868 /* FF_LiveSendGiftUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +567,7 @@
 		};
 		0409551723138DD0005BA868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF778C72D6217A7CB0C9CB14 /* Pods-FF_LiveSendGift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +584,7 @@
 		};
 		0409551823138DD0005BA868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5445558486565587C9ED22 /* Pods-FF_LiveSendGift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +601,7 @@
 		};
 		0409551A23138DD0005BA868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0E8E3BD3ECB60C606E54EB /* Pods-FF_LiveSendGiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +620,7 @@
 		};
 		0409551B23138DD0005BA868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6D1F4CE5F01382FA7F32FE /* Pods-FF_LiveSendGiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +639,7 @@
 		};
 		0409551D23138DD0005BA868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3767018D34E676AD2848900D /* Pods-FF_LiveSendGiftUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FF_LiveSendGiftUITests/Info.plist;
@@ -518,6 +657,7 @@
 		};
 		0409551E23138DD0005BA868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B8796EB37C8BC173DA1C5D /* Pods-FF_LiveSendGiftUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FF_LiveSendGiftUITests/Info.plist;
